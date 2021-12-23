@@ -21,7 +21,7 @@ p {
     position: absolute;
 
 }
-.project1box {
+.testbox {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -46,7 +46,7 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 120px 340px;
+    padding: 7% 22%;
     font-size: 25px;
     background: transparent;
     position: fixed;
@@ -67,7 +67,7 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 120px 340px;
+    padding: 7% 22%;
     font-size: 25px;
     background: transparent;
     position: fixed;
@@ -83,44 +83,34 @@ p {
     transition: 1s;
 }
 
-.persprojbox {
+.projbox {
     display: inline-block;
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 140px 310px;
+    padding: 180px 720px;
     font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     bottom: 0;
-    left: 0;
-    transform: translate(0%, -27%);
+    transform: translate(-757px, -30px);
 }
 
-.persprojbox:hover{
+.projbox:hover{
     border: 1px solid white;
     background: transparent;
     transition: 1s;
 }
 
-.acadbox {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid black;
-    padding: 140px 304px;
-    font-size: 25px;
-    background: transparent;
-    position: fixed;
-    cursor: pointer;
-    bottom: 0;
-    right: 0;
-    transform: translate(0%, -27%);
-}
 
-.acadbox:hover{
-    border: 1px solid white;
-    background: transparent;
-    transition: 1s;
+
+#container{
+    width: 100%;
+    min-width: 200px;
+    max-width: 700px;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+    top: 0%;
 }
