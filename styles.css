@@ -1,0 +1,126 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: white;
+}
+p {
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.intro{
+    width:100%;
+    color: white;
+    position: absolute;
+
+}
+.project1box {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    top: 70%;
+    left: 20%;
+}
+
+.project1box:hover{
+    border: 1px solid white;
+    background: cadetblue;
+    transition: 1s;
+}
+
+.githubbox {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 70px 197px;
+    font-size: 13px;
+    background: transparent;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 40%);
+}
+
+.githubbox:hover{
+    border: 1px solid white;
+    background: transparent;
+    transition: 1s;
+}
+
+.aboutmebox {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 70px 197px;
+    font-size: 13px;
+    background: transparent;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    transform: translate(0%, 40%);
+}
+
+.aboutmebox:hover{
+    border: 1px solid white;
+    background: transparent;
+    transition: 1s;
+}
+
+.persprojbox {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 70px 181px;
+    font-size: 13px;
+    background: transparent;
+    position: fixed;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, -25%);
+}
+
+.persprojbox:hover{
+    border: 1px solid white;
+    background: transparent;
+    transition: 1s;
+}
+
+.acadbox {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 70px 178px;
+    font-size: 13px;
+    background: transparent;
+    position: fixed;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, -25%);
+}
+
+.acadbox:hover{
+    border: 1px solid white;
+    background: transparent;
+    transition: 1s;
+}
