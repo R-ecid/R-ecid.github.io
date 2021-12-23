@@ -88,13 +88,13 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 180px 720px;
+    padding: 12% 47%;
     font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     bottom: 0;
-    transform: translate(-757px, -30px);
+    transform: translate(-50%, -6%);
 }
 
 .projbox:hover{
