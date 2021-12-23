@@ -46,14 +46,14 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 70px 197px;
-    font-size: 13px;
+    padding: 120px 340px;
+    font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     top: 0;
     left: 0;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 20%);
 }
 
 .githubbox:hover{
@@ -67,14 +67,14 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 70px 197px;
-    font-size: 13px;
+    padding: 120px 340px;
+    font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     top: 0;
     right: 0;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 20%);
 }
 
 .aboutmebox:hover{
@@ -88,14 +88,14 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 70px 181px;
-    font-size: 13px;
+    padding: 140px 310px;
+    font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     bottom: 0;
     left: 0;
-    transform: translate(0%, -25%);
+    transform: translate(0%, -27%);
 }
 
 .persprojbox:hover{
@@ -109,14 +109,14 @@ p {
     text-decoration: none;
     color: white;
     border: 1px solid black;
-    padding: 70px 178px;
-    font-size: 13px;
+    padding: 140px 304px;
+    font-size: 25px;
     background: transparent;
     position: fixed;
     cursor: pointer;
     bottom: 0;
     right: 0;
-    transform: translate(0%, -25%);
+    transform: translate(0%, -27%);
 }
 
 .acadbox:hover{
